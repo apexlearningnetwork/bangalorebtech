@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTechinBangalore | Top Engineering College Admissions 2026</title>
+<meta name="description" content="Expert BTech admission guidance for top Bangalore engineering colleges. Management quota, counselling, and direct admission support. Call +91 6002452250">
+<meta name="keywords" content="Bangalore Engineering Admission, Management Quota Admission Bangalore, BTech Admission Bangalore, Top Engineering Colleges Bangalore, RVCE Admission, MSRIT Admission, PES University Admission">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0B1F48;
+  --blue: #1848A0;
+  --sky: #2D7DD2;
+  --gold: #C9972A;
+  --gold-light: #F0C84A;
+  --white: #FFFFFF;
+  --off-white: #F7F9FC;
+  --gray: #8494A8;
+  --dark: #0A0F1C;
+  --card-bg: #FFFFFF;
+  --border: rgba(11,31,72,0.1);
+  --shadow: 0 8px 40px rgba(11,31,72,0.12);
+  --shadow-lg: 0 20px 60px rgba(11,31,72,0.18);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', sans-serif;
+  --radius: 16px;
+  --radius-sm: 8px;
+  --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--navy);
+  background: var(--white);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ─── SCROLL ANIMATION ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* ─── NAVBAR ─── */
+#navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  padding: 0 5%;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 68px;
+  background: transparent;
+  transition: background var(--transition), box-shadow var(--transition);
+}
+#navbar.scrolled {
+  background: rgba(255,255,255,0.97);
+  box-shadow: 0 2px 24px rgba(11,31,72,0.1);
+  backdrop-filter: blur(12px);
+}
+.nav-logo {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  letter-spacing: -0.3px;
+  transition: color var(--transition);
+}
+#navbar.scrolled .nav-logo { color: var(--navy); }
+.nav-logo span { color: var(--gold-light); }
+#navbar.scrolled .nav-logo span { color: var(--gold); }
+
+.nav-links {
+  display: flex; gap: 2rem; list-style: none; align-items: center;
+}
+.nav-links a {
+  font-size: 0.875rem; font-weight: 500;
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+#navbar.scrolled .nav-links a { color: var(--navy); }
+.nav-links a:hover { color: var(--gold-light); }
+#navbar.scrolled .nav-links a:hover { color: var(--blue); }
+
+.nav-cta {
+  background: var(--gold) !important;
+  color: var(--white) !important;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  transition: background var(--transition), transform var(--transition) !important;
+}
+.nav-cta:hover { background: var(--gold-light) !important; transform: scale(1.03); }
+
+.nav-hamburger {
+  display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px;
+}
+.nav-hamburger span {
+  width: 24px; height: 2px;
+  background: var(--white);
+  display: block; border-radius: 2px;
+  transition: background var(--transition);
+}
+#navbar.scrolled .nav-hamburger span { background: var(--navy); }
+
+.mobile-menu {
+  display: none;
+  position: fixed; top: 68px; left: 0; right: 0;
+  background: var(--white);
+  padding: 1.5rem 5%;
+  box-shadow: var(--shadow);
+  z-index: 999;
+  flex-direction: column; gap: 1rem;
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu a {
+  font-size: 0.95rem; font-weight: 500; color: var(--navy);
+  text-decoration: none; padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.mobile-menu a:last-child { border-bottom: none; }
+
+/* ─── HERO ─── */
+#hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(135deg, rgba(11,31,72,0.88) 0%, rgba(24,72,160,0.75) 60%, rgba(201,151,42,0.35) 100%),
+    url('https://images.unsplash.com/photo-1562774053-701939374585?w=1600&q=80') center/cover no-repeat;
+  display: flex; align-items: center;
+  padding: 120px 5% 80px;
+  position: relative; overflow: hidden;
+}
+#hero::after {
+  content: '';
+  position: absolute; bottom: 0; left: 0; right: 0; height: 80px;
+  background: linear-gradient(to top, var(--white), transparent);
+}
+
+.hero-content { max-width: 700px; position: relative; z-index: 1; }
+
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(201,151,42,0.2);
+  border: 1px solid rgba(240,200,74,0.4);
+  color: var(--gold-light);
+  font-size: 0.78rem; font-weight: 600;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  padding: 6px 16px; border-radius: 50px;
+  margin-bottom: 1.5rem;
+  animation: fadeDown 0.8s ease both;
+}
+.hero-badge::before { content: '★'; font-size: 0.7rem; }
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: none; }
+}
+
+.hero-h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 800; line-height: 1.15;
+  color: var(--white);
+  margin-bottom: 1.25rem;
+  animation: fadeUp 0.9s 0.2s ease both;
+}
+.hero-h1 em {
+  font-style: normal;
+  color: var(--gold-light);
+  position: relative;
+}
+
+.hero-sub {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: rgba(255,255,255,0.85);
+  max-width: 560px; line-height: 1.65;
+  margin-bottom: 2.5rem;
+  font-weight: 300;
+  animation: fadeUp 0.9s 0.35s ease both;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: none; }
+}
+
+.hero-btns {
+  display: flex; flex-wrap: wrap; gap: 1rem;
+  margin-bottom: 3rem;
+  animation: fadeUp 0.9s 0.5s ease both;
+}
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 0.85rem 1.8rem;
+  border-radius: 50px; font-weight: 600;
+  font-size: 0.95rem; text-decoration: none;
+  transition: all var(--transition); cursor: pointer;
+  border: none; font-family: var(--font-body);
+}
+.btn-gold {
+  background: var(--gold);
+  color: var(--white);
+  box-shadow: 0 4px 20px rgba(201,151,42,0.4);
+}
+.btn-gold:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(201,151,42,0.5);
+}
+.btn-white {
+  background: rgba(255,255,255,0.15);
+  color: var(--white);
+  border: 1.5px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(8px);
+}
+.btn-white:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+}
+.btn-green {
+  background: #25D366;
+  color: var(--white);
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+}
+.btn-green:hover {
+  background: #1ebe5c;
+  transform: translateY(-2px);
+}
+
+.hero-stats {
+  display: flex; gap: 2.5rem; flex-wrap: wrap;
+  animation: fadeUp 0.9s 0.65s ease both;
+}
+.stat { }
+.stat-num {
+  font-family: var(--font-display);
+  font-size: 2rem; font-weight: 700;
+  color: var(--gold-light); line-height: 1;
+}
+.stat-label {
+  font-size: 0.78rem; font-weight: 500;
+  color: rgba(255,255,255,0.7);
+  text-transform: uppercase; letter-spacing: 1px;
+}
+
+/* ─── SECTION SHARED ─── */
+.section { padding: 90px 5%; }
+.section-alt { background: var(--off-white); }
+
+.section-label {
+  display: inline-block;
+  font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--gold);
+  background: rgba(201,151,42,0.1);
+  padding: 5px 14px; border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 700; line-height: 1.2;
+  color: var(--navy); margin-bottom: 1rem;
+}
+.section-sub {
+  font-size: 1.05rem; color: var(--gray);
+  max-width: 580px; line-height: 1.7;
+}
+.text-center { text-align: center; }
+.text-center .section-sub { margin: 0 auto; }
+
+.section-header { margin-bottom: 3.5rem; }
+
+/* ─── WHY CHOOSE ─── */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.why-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  position: relative; overflow: hidden;
+}
+.why-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--blue), var(--gold));
+  opacity: 0; transition: opacity var(--transition);
+}
+.why-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
+.why-card:hover::before { opacity: 1; }
+
+.why-icon {
+  width: 52px; height: 52px;
+  background: linear-gradient(135deg, rgba(24,72,160,0.1), rgba(201,151,42,0.1));
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem; margin-bottom: 1.25rem;
+}
+.why-card h3 {
+  font-size: 1.05rem; font-weight: 600;
+  color: var(--navy); margin-bottom: 0.5rem;
+}
+.why-card p { font-size: 0.9rem; color: var(--gray); line-height: 1.6; }
+
+/* ─── COLLEGES ─── */
+.colleges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.75rem;
+}
+.college-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(11,31,72,0.07);
+  transition: transform var(--transition), box-shadow var(--transition);
+  border: 1px solid var(--border);
+}
+.college-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+.college-img-wrap {
+  position: relative; height: 190px; overflow: hidden;
+}
+.college-img-wrap img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.college-card:hover .college-img-wrap img { transform: scale(1.06); }
+.college-badge {
+  position: absolute; top: 12px; left: 12px;
+  background: var(--gold);
+  color: var(--white);
+  font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.8px; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 50px;
+}
+.college-body { padding: 1.5rem; }
+.college-body h3 {
+  font-size: 1.05rem; font-weight: 700;
+  color: var(--navy); margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+.college-body .desc {
+  font-size: 0.84rem; color: var(--gray);
+  line-height: 1.6; margin-bottom: 1rem;
+}
+.college-tags {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.2rem;
+}
+.tag {
+  font-size: 0.72rem; font-weight: 600;
+  color: var(--blue); background: rgba(24,72,160,0.08);
+  padding: 3px 10px; border-radius: 50px;
+}
+.college-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  border-top: 1px solid var(--border); padding-top: 1rem;
+}
+.placement-badge {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 0.78rem; font-weight: 600; color: #2E7D32;
+}
+.know-more {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 0.82rem; font-weight: 600; color: var(--blue);
+  cursor: pointer; text-decoration: none;
+  transition: color var(--transition), gap var(--transition);
+}
+.know-more:hover { color: var(--gold); gap: 8px; }
+
+/* ─── COURSES ─── */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+.course-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem 1.5rem;
+  text-align: center;
+  transition: all var(--transition);
+  cursor: default;
+}
+.course-card:hover {
+  border-color: var(--blue);
+  box-shadow: var(--shadow);
+  transform: translateY(-4px);
+}
+.course-icon {
+  font-size: 2.2rem; margin-bottom: 1rem;
+  display: block;
+}
+.course-card h3 {
+  font-size: 0.95rem; font-weight: 600; color: var(--navy);
+  line-height: 1.35;
+}
+.course-card .short { font-size: 0.78rem; color: var(--gold); font-weight: 700; margin-bottom: 0.3rem; }
+
+/* ─── PROCESS ─── */
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0; position: relative;
+}
+.process-steps::before {
+  content: '';
+  position: absolute; top: 40px; left: 10%; right: 10%; height: 2px;
+  background: linear-gradient(90deg, var(--blue), var(--gold));
+  z-index: 0;
+}
+.step {
+  text-align: center; padding: 0 1rem;
+  position: relative; z-index: 1;
+}
+.step-num {
+  width: 80px; height: 80px;
+  background: linear-gradient(135deg, var(--navy), var(--blue));
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-family: var(--font-display);
+  font-size: 1.6rem; font-weight: 700; color: var(--white);
+  box-shadow: 0 8px 24px rgba(24,72,160,0.3);
+  position: relative; z-index: 2;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.step:hover .step-num {
+  transform: scale(1.1);
+  box-shadow: 0 12px 32px rgba(24,72,160,0.4);
+}
+.step-icon { font-size: 1.4rem; line-height: 1; }
+.step h3 {
+  font-size: 1.05rem; font-weight: 700;
+  color: var(--navy); margin-bottom: 0.5rem;
+}
+.step p { font-size: 0.875rem; color: var(--gray); line-height: 1.6; }
+
+/* ─── BANGALORE SECTION ─── */
+.bangalore-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
+}
+.bangalore-visual {
+  border-radius: var(--radius); overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-lg);
+}
+.bangalore-visual img {
+  width: 100%; height: 360px; object-fit: cover; display: block;
+}
+.bangalore-visual::after {
+  content: 'Silicon Valley of India';
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, rgba(11,31,72,0.9), transparent);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 1.1rem; font-weight: 700;
+  padding: 2rem 1.5rem 1.5rem;
+  text-align: center;
+}
+.bangalore-points { display: flex; flex-direction: column; gap: 1.25rem; }
+.bangalore-point {
+  display: flex; gap: 1rem; align-items: flex-start;
+  padding: 1rem 1.25rem;
+  background: var(--white);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.bangalore-point:hover { transform: translateX(6px); box-shadow: var(--shadow); }
+.bp-icon {
+  font-size: 1.5rem; flex-shrink: 0;
+  width: 44px; height: 44px;
+  background: rgba(24,72,160,0.08);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+}
+.bp-text h4 { font-size: 0.95rem; font-weight: 600; color: var(--navy); margin-bottom: 2px; }
+.bp-text p { font-size: 0.82rem; color: var(--gray); }
+
+/* ─── TESTIMONIALS ─── */
+.testi-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;
+}
+.testi-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 2rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 16px rgba(11,31,72,0.06);
+  transition: transform var(--transition), box-shadow var(--transition);
+  position: relative;
+}
+.testi-card::before {
+  content: '"';
+  font-family: var(--font-display);
+  font-size: 5rem; line-height: 1;
+  color: rgba(24,72,160,0.08);
+  position: absolute; top: 12px; right: 20px;
+}
+.testi-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.stars { color: #F5A623; font-size: 0.9rem; margin-bottom: 1rem; letter-spacing: 2px; }
+.testi-text {
+  font-size: 0.92rem; color: #4A5568; line-height: 1.7;
+  font-style: italic; margin-bottom: 1.5rem;
+}
+.testi-author { display: flex; align-items: center; gap: 0.75rem; }
+.testi-avatar {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--blue), var(--gold));
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; color: var(--white); font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.testi-name { font-size: 0.9rem; font-weight: 700; color: var(--navy); }
+.testi-college { font-size: 0.78rem; color: var(--gray); }
+
+/* ─── FAQ ─── */
+.faq-list { max-width: 780px; margin: 0 auto; }
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.875rem;
+  overflow: hidden;
+  transition: box-shadow var(--transition);
+}
+.faq-item:hover { box-shadow: var(--shadow); }
+.faq-q {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600; font-size: 0.95rem; color: var(--navy);
+  background: var(--white);
+  user-select: none;
+  transition: background var(--transition);
+}
+.faq-q:hover { background: var(--off-white); }
+.faq-arrow {
+  font-size: 0.7rem; color: var(--blue);
+  transition: transform var(--transition);
+  flex-shrink: 0; margin-left: 1rem;
+}
+.faq-item.open .faq-arrow { transform: rotate(180deg); }
+.faq-a {
+  max-height: 0; overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 1.5rem;
+  font-size: 0.9rem; color: var(--gray); line-height: 1.7;
+}
+.faq-item.open .faq-a {
+  max-height: 200px; padding: 0 1.5rem 1.25rem;
+}
+
+/* ─── CONTACT ─── */
+.contact-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;
+}
+.contact-info { }
+.contact-info h2 {
+  font-family: var(--font-display);
+  font-size: 2rem; font-weight: 700; color: var(--navy); margin-bottom: 1rem;
+}
+.contact-info p { font-size: 0.95rem; color: var(--gray); margin-bottom: 2rem; line-height: 1.7; }
+.contact-items { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+.contact-item {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--off-white);
+  border-radius: var(--radius-sm);
+}
+.ci-icon {
+  width: 42px; height: 42px;
+  background: linear-gradient(135deg, var(--navy), var(--blue));
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem; color: var(--white); flex-shrink: 0;
+}
+.ci-label { font-size: 0.72rem; color: var(--gray); font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; }
+.ci-val { font-size: 0.9rem; font-weight: 600; color: var(--navy); }
+
+.map-placeholder {
+  border-radius: var(--radius-sm); overflow: hidden;
+  border: 1px solid var(--border);
+}
+.map-placeholder iframe {
+  width: 100%; height: 220px; display: block; border: none;
+}
+
+.contact-form-wrap {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  box-shadow: var(--shadow);
+}
+.contact-form-wrap h3 {
+  font-family: var(--font-display);
+  font-size: 1.4rem; font-weight: 700; color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+.contact-form-wrap p.sub {
+  font-size: 0.85rem; color: var(--gray); margin-bottom: 1.75rem;
+}
+
+.form-group { margin-bottom: 1.2rem; }
+.form-group label {
+  display: block; font-size: 0.8rem; font-weight: 600;
+  color: var(--navy); margin-bottom: 0.4rem;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%; padding: 0.85rem 1rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body); font-size: 0.9rem;
+  color: var(--navy); background: var(--off-white);
+  transition: border-color var(--transition), box-shadow var(--transition);
+  outline: none;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(24,72,160,0.1);
+  background: var(--white);
+}
+.form-group textarea { resize: vertical; min-height: 90px; }
+.form-group select { cursor: pointer; }
+
+.form-submit {
+  width: 100%; padding: 1rem;
+  background: linear-gradient(135deg, var(--navy), var(--blue));
+  color: var(--white); border: none;
+  border-radius: 50px; font-family: var(--font-body);
+  font-size: 0.95rem; font-weight: 600;
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+  letter-spacing: 0.3px;
+}
+.form-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(24,72,160,0.35);
+}
+
+.success-msg {
+  display: none;
+  text-align: center; padding: 1rem;
+  background: rgba(46,125,50,0.1);
+  border: 1px solid rgba(46,125,50,0.3);
+  border-radius: var(--radius-sm);
+  color: #2E7D32; font-size: 0.9rem; font-weight: 600;
+  margin-top: 1rem;
+}
+
+/* ─── BLOG STRIP ─── */
+.blog-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;
+}
+.blog-card {
+  border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--border); background: var(--white);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.blog-img { height: 170px; overflow: hidden; }
+.blog-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.blog-card:hover .blog-img img { transform: scale(1.06); }
+.blog-body { padding: 1.25rem; }
+.blog-tag {
+  font-size: 0.7rem; font-weight: 700; color: var(--gold);
+  text-transform: uppercase; letter-spacing: 1px;
+  margin-bottom: 0.5rem; display: block;
+}
+.blog-body h3 {
+  font-size: 0.95rem; font-weight: 700;
+  color: var(--navy); line-height: 1.4; margin-bottom: 0.5rem;
+}
+.blog-body p { font-size: 0.82rem; color: var(--gray); line-height: 1.6; }
+.blog-read {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 0.8rem; font-weight: 600; color: var(--blue);
+  text-decoration: none; margin-top: 0.75rem;
+  transition: color var(--transition), gap var(--transition);
+}
+.blog-read:hover { color: var(--gold); gap: 8px; }
+
+/* ─── FOOTER ─── */
+footer {
+  background: var(--dark);
+  padding: 60px 5% 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem; margin-bottom: 3rem;
+}
+.footer-brand .logo {
+  font-family: var(--font-display);
+  font-size: 1.4rem; font-weight: 700;
+  color: var(--white); margin-bottom: 1rem; display: block;
+  text-decoration: none;
+}
+.footer-brand .logo span { color: var(--gold-light); }
+.footer-brand p {
+  font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+.social-links { display: flex; gap: 0.75rem; }
+.social-link {
+  width: 38px; height: 38px;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem; color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: all var(--transition);
+}
+.social-link:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: translateY(-3px);
+}
+.footer-col h4 {
+  font-size: 0.8rem; font-weight: 700;
+  color: var(--white); text-transform: uppercase;
+  letter-spacing: 1.5px; margin-bottom: 1.25rem;
+}
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+.footer-col ul a {
+  font-size: 0.85rem; color: rgba(255,255,255,0.5);
+  text-decoration: none; transition: color var(--transition);
+}
+.footer-col ul a:hover { color: var(--gold-light); }
+.footer-contact-item {
+  display: flex; gap: 0.6rem; align-items: flex-start;
+  font-size: 0.85rem; color: rgba(255,255,255,0.5);
+  margin-bottom: 0.75rem;
+}
+.footer-contact-item strong { color: rgba(255,255,255,0.8); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 1.5rem;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 1rem;
+}
+.footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.35); }
+.footer-bottom a { color: var(--gold-light); text-decoration: none; }
+
+/* ─── FLOATING WHATSAPP ─── */
+.wa-float {
+  position: fixed; bottom: 28px; right: 24px; z-index: 999;
+  width: 58px; height: 58px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 6px 24px rgba(37,211,102,0.5);
+  text-decoration: none;
+  animation: pulse 2s infinite;
+  transition: transform var(--transition);
+}
+.wa-float:hover { transform: scale(1.1); animation: none; }
+.wa-float svg { width: 30px; height: 30px; fill: white; }
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 6px 24px rgba(37,211,102,0.5); }
+  50% { box-shadow: 0 6px 36px rgba(37,211,102,0.8), 0 0 0 8px rgba(37,211,102,0.15); }
+}
+
+/* ─── MARQUEE STRIP ─── */
+.marquee-wrap {
+  background: var(--navy); padding: 14px 0; overflow: hidden;
+}
+.marquee-track {
+  display: flex; gap: 0; white-space: nowrap;
+  animation: marquee 30s linear infinite;
+}
+.marquee-track span {
+  font-size: 0.8rem; font-weight: 600;
+  color: rgba(255,255,255,0.7);
+  padding: 0 2rem;
+  flex-shrink: 0;
+}
+.marquee-track span em {
+  font-style: normal; color: var(--gold-light); margin-right: 1rem;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 900px) {
+  .bangalore-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .process-steps::before { display: none; }
+}
+@media (max-width: 640px) {
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+  .hero-stats { gap: 1.5rem; }
+  .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+  .courses-grid { grid-template-columns: 1fr 1fr; }
+  .process-steps { grid-template-columns: 1fr 1fr; }
+}
+
+/* ─── CTA BAND ─── */
+.cta-band {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 60%, #1a5fa8 100%);
+  padding: 80px 5%;
+  text-align: center; position: relative; overflow: hidden;
+}
+.cta-band::before {
+  content: '';
+  position: absolute; top: -50%; left: -10%; width: 50%; height: 200%;
+  background: rgba(201,151,42,0.08);
+  transform: rotate(-20deg);
+}
+.cta-band h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  color: var(--white); margin-bottom: 0.75rem; position: relative;
+}
+.cta-band p {
+  color: rgba(255,255,255,0.75); margin-bottom: 2rem;
+  font-size: 1rem; position: relative;
+}
+.cta-band .btn-group { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; position: relative; }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">BTech<span>inBangalore</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#colleges">Colleges</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#process">Admission</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact" class="nav-cta">Get Admitted</a></li>
+  </ul>
+  <div class="nav-hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About Us</a>
+  <a href="#colleges" onclick="toggleMenu()">Top Colleges</a>
+  <a href="#courses" onclick="toggleMenu()">Courses</a>
+  <a href="#process" onclick="toggleMenu()">Admission Process</a>
+  <a href="#faq" onclick="toggleMenu()">FAQ</a>
+  <a href="#contact" onclick="toggleMenu()">Contact Us</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Trusted Admission Consultancy Since 2018</div>
+    <h1 class="hero-h1">Admission in <em>Top Bangalore</em> Engineering Colleges 2026</h1>
+    <p class="hero-sub">Expert Guidance for BTech Admissions, Counselling &amp; Management Quota Support — Securing your seat in Bangalore's finest institutions.</p>
+    <div class="hero-btns">
+      <a href="tel:+916002452250" class="btn btn-gold">📞 Call Now</a>
+      <a href="https://wa.me/916002452250?text=Hi, I need BTech admission guidance in Bangalore" target="_blank" class="btn btn-green">💬 WhatsApp Now</a>
+      <a href="#contact" class="btn btn-white">Apply Today →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">2000+</div>
+        <div class="stat-label">Students Placed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">11+</div>
+        <div class="stat-label">Partner Colleges</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Success Rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">8+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span><em>🎓</em> RVCE Admission 2026</span>
+    <span><em>🎓</em> MSRIT Direct Admission</span>
+    <span><em>🎓</em> PES University Management Quota</span>
+    <span><em>🎓</em> BMSCE Admission Support</span>
+    <span><em>🎓</em> Jain University BTech 2026</span>
+    <span><em>🎓</em> Alliance University Admission</span>
+    <span><em>📞</em> Call +91 6002452250</span>
+    <span><em>🎓</em> RVCE Admission 2026</span>
+    <span><em>🎓</em> MSRIT Direct Admission</span>
+    <span><em>🎓</em> PES University Management Quota</span>
+    <span><em>🎓</em> BMSCE Admission Support</span>
+    <span><em>🎓</em> Jain University BTech 2026</span>
+    <span><em>🎓</em> Alliance University Admission</span>
+    <span><em>📞</em> Call +91 6002452250</span>
+  </div>
+</div>
+
+<!-- ABOUT / WHY CHOOSE -->
+<section class="section" id="about">
+  <div class="section-header text-center reveal">
+    <div class="section-label">Why Choose Us</div>
+    <h2 class="section-title">Why Choose BTechinBangalore?</h2>
+    <p class="section-sub">We simplify the complex admissions landscape for students and parents across India, delivering transparent, student-first guidance.</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal reveal-delay-1">
+      <div class="why-icon">🏆</div>
+      <h3>Trusted Admission Partner</h3>
+      <p>Over 2000 students successfully admitted to top Bangalore engineering colleges. Proven track record since 2018.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-2">
+      <div class="why-icon">🎯</div>
+      <h3>Expert Management Quota Guidance</h3>
+      <p>Specialized support for management quota admissions across RVCE, MSRIT, PES, BMSCE, and more top institutions.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-3">
+      <div class="why-icon">📋</div>
+      <h3>End-to-End Counselling</h3>
+      <p>From college selection to document submission and fee payment — we support every step of your admission journey.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-4">
+      <div class="why-icon">🔍</div>
+      <h3>Transparent Process</h3>
+      <p>No hidden fees, no false promises. Clear guidance, honest eligibility assessment, and realistic expectations always.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-5">
+      <div class="why-icon">⚡</div>
+      <h3>Quick Response Support</h3>
+      <p>Dedicated counsellors available on call and WhatsApp. Get answers to your queries within hours, not days.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-1">
+      <div class="why-icon">🎓</div>
+      <h3>Student-Focused Approach</h3>
+      <p>Your career goals drive our recommendations. We match students to colleges based on merit, budget, and aspirations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TOP COLLEGES -->
+<section class="section section-alt" id="colleges">
+  <div class="section-header text-center reveal">
+    <div class="section-label">Our College Network</div>
+    <h2 class="section-title">Top Engineering Colleges in Bangalore</h2>
+    <p class="section-sub">We facilitate admissions to Bangalore's most prestigious NAAC-accredited engineering institutions.</p>
+  </div>
+  <div class="colleges-grid" id="collegesGrid">
+    <!-- Rendered by JS -->
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="section" id="courses">
+  <div class="section-header text-center reveal">
+    <div class="section-label">BTech Branches</div>
+    <h2 class="section-title">Popular Engineering Courses</h2>
+    <p class="section-sub">Choose from the most in-demand BTech specialisations available across Bangalore's top colleges.</p>
+  </div>
+  <div class="courses-grid" id="coursesGrid"></div>
+</section>
+
+<!-- PROCESS -->
+<section class="section section-alt" id="process">
+  <div class="section-header text-center reveal">
+    <div class="section-label">How It Works</div>
+    <h2 class="section-title">Our Simple 4-Step Admission Process</h2>
+    <p class="section-sub">We guide you seamlessly from first enquiry to confirmed admission seat.</p>
+  </div>
+  <div class="process-steps">
+    <div class="step reveal reveal-delay-1">
+      <div class="step-num"><span class="step-icon">💬</span></div>
+      <h3>Step 1: Enquiry</h3>
+      <p>Contact us by call or WhatsApp. Share your marks, preferences, and budget. We assess your eligibility.</p>
+    </div>
+    <div class="step reveal reveal-delay-2">
+      <div class="step-num"><span class="step-icon">🧭</span></div>
+      <h3>Step 2: Counselling</h3>
+      <p>Our expert counsellors guide you on the best-fit college options, seat availability, and admission routes.</p>
+    </div>
+    <div class="step reveal reveal-delay-3">
+      <div class="step-num"><span class="step-icon">🏫</span></div>
+      <h3>Step 3: College Selection</h3>
+      <p>Finalise your preferred institution based on branch preference, fee structure, and placement history.</p>
+    </div>
+    <div class="step reveal reveal-delay-4">
+      <div class="step-num"><span class="step-icon">✅</span></div>
+      <h3>Step 4: Admission Done!</h3>
+      <p>We coordinate all documentation, fee deposits, and formalities. Your seat is confirmed — hassle-free.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BANGALORE SECTION -->
+<section class="section" id="bangalore">
+  <div class="bangalore-grid">
+    <div class="bangalore-visual reveal">
+      <img src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80" alt="Bangalore City Skyline" loading="lazy">
+    </div>
+    <div>
+      <div class="section-label reveal">Why Bangalore</div>
+      <h2 class="section-title reveal">Study Engineering in India's <em style="font-style:normal;color:var(--gold)">Silicon Valley</em></h2>
+      <p class="section-sub reveal" style="margin-bottom:2rem">Bangalore offers unmatched opportunities for engineering students — from world-class campuses to thriving tech ecosystems.</p>
+      <div class="bangalore-points">
+        <div class="bangalore-point reveal reveal-delay-1">
+          <div class="bp-icon">💻</div>
+          <div class="bp-text">
+            <h4>IT Hub of India</h4>
+            <p>Home to 5000+ tech companies including Google, Amazon, Infosys, and Wipro.</p>
+          </div>
+        </div>
+        <div class="bangalore-point reveal reveal-delay-2">
+          <div class="bp-icon">📈</div>
+          <div class="bp-text">
+            <h4>Strong Placement Records</h4>
+            <p>Bangalore engineering graduates command among India's highest starting salaries.</p>
+          </div>
+        </div>
+        <div class="bangalore-point reveal reveal-delay-3">
+          <div class="bp-icon">🤝</div>
+          <div class="bp-text">
+            <h4>Industry Exposure</h4>
+            <p>Frequent industry visits, internships, and live project opportunities built into curriculum.</p>
+          </div>
+        </div>
+        <div class="bangalore-point reveal reveal-delay-4">
+          <div class="bp-icon">🚀</div>
+          <div class="bp-text">
+            <h4>Startup Ecosystem</h4>
+            <p>3rd largest startup hub globally — ideal launchpad for entrepreneurial engineering students.</p>
+          </div>
+        </div>
+        <div class="bangalore-point reveal reveal-delay-5">
+          <div class="bp-icon">🏙️</div>
+          <div class="bp-text">
+            <h4>Student-Friendly City</h4>
+            <p>Excellent infrastructure, diverse culture, safe environment, and quality student housing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <h2 class="reveal">Ready to Secure Your Engineering Seat?</h2>
+  <p class="reveal">Admissions are limited — contact us today for guaranteed guidance.</p>
+  <div class="btn-group reveal">
+    <a href="tel:+916002452250" class="btn btn-gold">📞 +91 6002452250</a>
+    <a href="https://wa.me/916002452250?text=Hi, I want BTech admission help in Bangalore" target="_blank" class="btn btn-green">💬 WhatsApp Us</a>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section class="section section-alt" id="testimonials">
+  <div class="section-header text-center reveal">
+    <div class="section-label">Student Stories</div>
+    <h2 class="section-title">What Our Students Say</h2>
+    <p class="section-sub">Real students. Real results. Hundreds of successful admissions across Bangalore's top colleges.</p>
+  </div>
+  <div class="testi-grid" id="testiGrid"></div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="section-header text-center reveal">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-sub">Everything you need to know about BTech admissions in Bangalore.</p>
+  </div>
+  <div class="faq-list" id="faqList"></div>
+</section>
+
+<!-- BLOG -->
+<section class="section section-alt" id="blog">
+  <div class="section-header text-center reveal">
+    <div class="section-label">Admission Insights</div>
+    <h2 class="section-title">Latest from Our Blog</h2>
+    <p class="section-sub">Stay updated with admission trends, counselling tips, and college news for 2026.</p>
+  </div>
+  <div class="blog-grid">
+    <div class="blog-card reveal reveal-delay-1">
+      <div class="blog-img">
+        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" alt="College campus" loading="lazy">
+      </div>
+      <div class="blog-body">
+        <span class="blog-tag">Management Quota</span>
+        <h3>How Management Quota Works in Bangalore Engineering Colleges 2026</h3>
+        <p>A complete guide to securing seats under management quota — eligibility, fees, and the application process.</p>
+        <a href="#contact" class="blog-read">Read More →</a>
+      </div>
+    </div>
+    <div class="blog-card reveal reveal-delay-2">
+      <div class="blog-img">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="Engineering students" loading="lazy">
+      </div>
+      <div class="blog-body">
+        <span class="blog-tag">Admissions 2026</span>
+        <h3>Top 5 Engineering Colleges in Bangalore for CSE & AI/ML in 2026</h3>
+        <p>Comparing placements, faculty quality, and campus life at Bangalore's elite engineering institutions.</p>
+        <a href="#contact" class="blog-read">Read More →</a>
+      </div>
+    </div>
+    <div class="blog-card reveal reveal-delay-3">
+      <div class="blog-img">
+        <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=600&q=80" alt="Admission documents" loading="lazy">
+      </div>
+      <div class="blog-body">
+        <span class="blog-tag">Counselling Guide</span>
+        <h3>KCET vs Management Quota: Which Route is Right for You?</h3>
+        <p>Detailed comparison of KCET government counselling and management quota to help you choose wisely.</p>
+        <a href="#contact" class="blog-read">Read More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="section-label">Get In Touch</div>
+      <h2>Start Your Admission Journey Today</h2>
+      <p>Reach out to our counsellors for free guidance on BTech admissions, management quota, and direct admission options in Bangalore's top colleges.</p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <div class="ci-label">Call Us</div>
+            <div class="ci-val"><a href="tel:+916002452250" style="color:var(--navy);text-decoration:none">+91 6002452250</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">✉️</div>
+          <div>
+            <div class="ci-label">Email Us</div>
+            <div class="ci-val"><a href="mailto:apexlearningnetworks@gmail.com" style="color:var(--navy);text-decoration:none">apexlearningnetworks@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">📍</div>
+          <div>
+            <div class="ci-label">Location</div>
+            <div class="ci-val">Bangalore, Karnataka, India</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">💬</div>
+          <div>
+            <div class="ci-label">WhatsApp</div>
+            <div class="ci-val"><a href="https://wa.me/916002452250" target="_blank" style="color:var(--navy);text-decoration:none">Chat with a counsellor</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="map-placeholder">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.9973874144!2d77.35073573803955!3d12.954517000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          allowfullscreen="" loading="lazy" title="Bangalore Map">
+        </iframe>
+      </div>
+    </div>
+    <div class="contact-form-wrap reveal reveal-delay-2">
+      <h3>Free Admission Consultation</h3>
+      <p class="sub">Fill in your details and our counsellor will call you back within 2 hours.</p>
+      <form id="contactForm" onsubmit="submitForm(event)">
+        <div class="form-group">
+          <label>Full Name *</label>
+          <input type="text" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label>Phone Number *</label>
+          <input type="tel" placeholder="+91 XXXXXXXXXX" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label>Preferred College</label>
+          <select>
+            <option value="">Select a college</option>
+            <option>RV College of Engineering (RVCE)</option>
+            <option>BMS College of Engineering (BMSCE)</option>
+            <option>Ramaiah Institute of Technology (MSRIT)</option>
+            <option>PES University</option>
+            <option>Jain University</option>
+            <option>Alliance University</option>
+            <option>BMS Institute of Technology (BMSIT)</option>
+            <option>Dayananda Sagar College (DSCE)</option>
+            <option>CMR Institute of Technology (CMRIT)</option>
+            <option>New Horizon College of Engineering</option>
+            <option>Bangalore Institute of Technology (BIT)</option>
+            <option>Not sure — Need Guidance</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell us your marks, preferred branch, or any specific queries..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Submit — Get Free Guidance 🎓</button>
+        <div class="success-msg" id="successMsg">✅ Thank you! Our counsellor will contact you within 2 hours.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">BTech<span>inBangalore</span></a>
+      <p>Your trusted partner for BTech admissions in Bangalore. We help students secure seats in top private engineering colleges through expert counselling and management quota support.</p>
+      <div class="social-links">
+        <a href="#" class="social-link" title="Facebook">f</a>
+        <a href="#" class="social-link" title="Instagram">ig</a>
+        <a href="https://wa.me/916002452250" class="social-link" title="WhatsApp">wa</a>
+        <a href="https://youtube.com" class="social-link" title="YouTube">yt</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#colleges">Top Colleges</a></li>
+        <li><a href="#courses">BTech Courses</a></li>
+        <li><a href="#process">Admission Process</a></li>
+        <li><a href="#testimonials">Student Stories</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Top Colleges</h4>
+      <ul>
+        <li><a href="#colleges">RVCE Bangalore</a></li>
+        <li><a href="#colleges">MSRIT Bangalore</a></li>
+        <li><a href="#colleges">PES University</a></li>
+        <li><a href="#colleges">BMSCE Bangalore</a></li>
+        <li><a href="#colleges">Jain University</a></li>
+        <li><a href="#colleges">Alliance University</a></li>
+        <li><a href="#colleges">BMSIT Bangalore</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <div class="footer-contact-item"><strong>📞 &nbsp;</strong><span><a href="tel:+916002452250" style="color:inherit;text-decoration:none">+91 6002452250</a></span></div>
+      <div class="footer-contact-item"><strong>✉️ &nbsp;</strong><span><a href="mailto:apexlearningnetworks@gmail.com" style="color:inherit;text-decoration:none">apexlearningnetworks@gmail.com</a></span></div>
+      <div class="footer-contact-item"><strong>📍 &nbsp;</strong><span>Bangalore, Karnataka, India</span></div>
+      <div style="margin-top:1.25rem">
+        <a href="https://wa.me/916002452250" target="_blank" class="btn btn-green" style="font-size:0.82rem;padding:0.6rem 1.2rem">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 BTechinBangalore. All Rights Reserved. | Powered by <a href="#">Apex Learning Network</a></p>
+    <p style="font-size:0.72rem;color:rgba(255,255,255,0.25)">#BTechAdmission #BangaloreEngineering #ManagementQuota #EngineeringCollegesBangalore #BTechBangalore2026 #RVCE #MSRIT #PESUniversity</p>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/916002452250?text=Hi, I need BTech admission guidance in Bangalore 2026" target="_blank" class="wa-float" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<script>
+// ─── NAVBAR SCROLL ───
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// ─── MOBILE MENU ───
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// ─── SCROLL REVEAL ───
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ─── COLLEGE DATA ───
+const colleges = [
+  {
+    name: "RV College of Engineering (RVCE)",
+    badge: "Autonomous",
+    img: "https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80",
+    desc: "One of Karnataka's most prestigious autonomous engineering institutions, affiliated to VTU with NAAC A++ grade.",
+    branches: ["CSE", "ECE", "AI&ML", "Civil"],
+    placement: "₹45 LPA (Highest)",
+    highlight: "NBA Accredited"
+  },
+  {
+    name: "BMS College of Engineering (BMSCE)",
+    badge: "Autonomous",
+    img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80",
+    desc: "Established in 1946, BMSCE is one of Bangalore's oldest and most reputed engineering colleges with NAAC A grade.",
+    branches: ["CSE", "ISE", "ECE", "Mech"],
+    placement: "₹42 LPA (Highest)",
+    highlight: "EST. 1946"
+  },
+  {
+    name: "MS Ramaiah Institute of Technology (MSRIT)",
+    badge: "Top Ranked",
+    img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80",
+    desc: "MSRIT is rated among India's top 50 engineering colleges, renowned for research and industry partnerships.",
+    branches: ["CSE", "AI&ML", "ECE", "EEE"],
+    placement: "₹50 LPA (Highest)",
+    highlight: "NAAC A++"
+  },
+  {
+    name: "PES University",
+    badge: "University",
+    img: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80",
+    desc: "PES University offers an internationally focused BTech curriculum with strong tech company recruitment.",
+    branches: ["CSE", "Data Science", "ECE", "Civil"],
+    placement: "₹55 LPA (Highest)",
+    highlight: "IIT-Level Coding"
+  },
+  {
+    name: "BMS Institute of Technology (BMSIT)",
+    badge: "VTU Affiliated",
+    img: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=600&q=80",
+    desc: "BMSIT provides quality technical education with a focus on innovation, research, and industry-ready graduates.",
+    branches: ["CSE", "ECE", "Mech", "ISE"],
+    placement: "₹32 LPA (Highest)",
+    highlight: "NBA Accredited"
+  },
+  {
+    name: "Dayananda Sagar College of Engineering",
+    badge: "NAAC A",
+    img: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=600&q=80",
+    desc: "DSCE offers strong placement support with an active industry-academia interface and excellent campus facilities.",
+    branches: ["CSE", "AI&ML", "ECE", "Civil"],
+    placement: "₹30 LPA (Highest)",
+    highlight: "500+ Recruiters"
+  },
+  {
+    name: "CMR Institute of Technology (CMRIT)",
+    badge: "VTU Affiliated",
+    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+    desc: "CMRIT is known for its vibrant campus culture, consistent placement records, and strong alumni network.",
+    branches: ["CSE", "ISE", "ECE", "Mech"],
+    placement: "₹28 LPA (Highest)",
+    highlight: "Active Tech Clubs"
+  },
+  {
+    name: "Jain University",
+    badge: "Deemed University",
+    img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80",
+    desc: "Jain University blends academic rigour with sports and cultural excellence, offering flexible BTech programmes.",
+    branches: ["CSE", "Data Science", "AI&ML", "Mech"],
+    placement: "₹35 LPA (Highest)",
+    highlight: "Management Quota Available"
+  },
+  {
+    name: "Alliance University",
+    badge: "Deemed University",
+    img: "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=600&q=80",
+    desc: "Alliance University is an emerging engineering institution offering global-standard education with flexible intake.",
+    branches: ["CSE", "AI&ML", "ECE", "Civil"],
+    placement: "₹28 LPA (Highest)",
+    highlight: "International Tie-Ups"
+  },
+  {
+    name: "New Horizon College of Engineering",
+    badge: "VTU Affiliated",
+    img: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600&q=80",
+    desc: "NHCE offers quality engineering programmes with focus on entrepreneurship, innovation labs, and tech exposure.",
+    branches: ["CSE", "ISE", "ECE", "EEE"],
+    placement: "₹25 LPA (Highest)",
+    highlight: "Innovation Hub"
+  },
+  {
+    name: "Bangalore Institute of Technology (BIT)",
+    badge: "VTU Affiliated",
+    img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80",
+    desc: "BIT Bangalore is a well-established institution with over 60 years of academic excellence and strong VTU rankings.",
+    branches: ["CSE", "ECE", "Mech", "Civil"],
+    placement: "₹22 LPA (Highest)",
+    highlight: "EST. 1960"
+  }
+];
+
+const grid = document.getElementById('collegesGrid');
+colleges.forEach((c, i) => {
+  const card = document.createElement('div');
+  card.className = `college-card reveal reveal-delay-${(i%4)+1}`;
+  card.innerHTML = `
+    <div class="college-img-wrap">
+      <img src="${c.img}" alt="${c.name}" loading="lazy">
+      <div class="college-badge">${c.badge}</div>
+    </div>
+    <div class="college-body">
+      <h3>${c.name}</h3>
+      <p class="desc">${c.desc}</p>
+      <div class="college-tags">${c.branches.map(b=>`<span class="tag">${b}</span>`).join('')}</div>
+      <div class="college-footer">
+        <div class="placement-badge">🏢 ${c.placement}</div>
+        <a href="#contact" class="know-more">Get Admitted →</a>
+      </div>
+    </div>
+  `;
+  grid.appendChild(card);
+});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ─── COURSES ───
+const courses = [
+  { icon: '💻', short: 'CSE', name: 'Computer Science Engineering' },
+  { icon: '🤖', short: 'AI&ML', name: 'Artificial Intelligence & Machine Learning' },
+  { icon: '📊', short: 'DS', name: 'Data Science' },
+  { icon: '📡', short: 'ECE', name: 'Electronics & Communication Engineering' },
+  { icon: '⚙️', short: 'Mech', name: 'Mechanical Engineering' },
+  { icon: '🏗️', short: 'Civil', name: 'Civil Engineering' },
+  { icon: '🖥️', short: 'ISE', name: 'Information Science Engineering' },
+  { icon: '⚡', short: 'EEE', name: 'Electrical & Electronics Engineering' }
+];
+const cg = document.getElementById('coursesGrid');
+courses.forEach((c, i) => {
+  const d = document.createElement('div');
+  d.className = `course-card reveal reveal-delay-${(i%5)+1}`;
+  d.innerHTML = `<span class="course-icon">${c.icon}</span><div class="short">${c.short}</div><h3>${c.name}</h3>`;
+  cg.appendChild(d);
+});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ─── TESTIMONIALS ───
+const testis = [
+  { name: 'Arjun S.', college: 'CSE @ RVCE', stars: 5, text: 'The guidance from BTechinBangalore was outstanding. They helped me secure a management quota seat in RVCE within a week. The counsellors were always available and transparent throughout.' },
+  { name: 'Priya M.', college: 'AI&ML @ MSRIT', stars: 5, text: 'I was confused about management quota vs KCET. The team explained everything clearly and helped me choose MSRIT for AI&ML. Excellent support from start to finish!' },
+  { name: 'Rohan K.', college: 'Data Science @ PES University', stars: 5, text: 'BTechinBangalore made my admission to PES University completely stress-free. Quick responses, honest guidance, and great follow-up. Highly recommend to any student!' },
+  { name: 'Sneha P.', college: 'ECE @ BMSCE', stars: 5, text: 'My parents were worried about the admission process, but the team handled everything perfectly. We got our preferred college and branch without any hassles.' },
+  { name: 'Vikram T.', college: 'CSE @ Jain University', stars: 4, text: 'Good counselling service, very responsive team. They helped us understand all options available and we got a good seat. Would definitely refer to friends.' }
+];
+const tg = document.getElementById('testiGrid');
+testis.forEach((t, i) => {
+  const d = document.createElement('div');
+  d.className = `testi-card reveal reveal-delay-${(i%4)+1}`;
+  d.innerHTML = `
+    <div class="stars">${'★'.repeat(t.stars)}${'☆'.repeat(5-t.stars)}</div>
+    <p class="testi-text">"${t.text}"</p>
+    <div class="testi-author">
+      <div class="testi-avatar">${t.name[0]}</div>
+      <div>
+        <div class="testi-name">${t.name}</div>
+        <div class="testi-college">${t.college}</div>
+      </div>
+    </div>
+  `;
+  tg.appendChild(d);
+});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ─── FAQ ───
+const faqs = [
+  { q: 'How does management quota admission work in Bangalore?', a: 'Management quota allows private engineering colleges to fill a portion of seats (typically 30-35%) independently, outside government counselling like KCET. Students with valid 12th marks (PCM) can approach colleges or consultancies like ours directly. We handle the documentation, application, and confirmation process for you.' },
+  { q: 'Which colleges are available for management quota admission?', a: 'We assist with admissions in RVCE, BMSCE, MSRIT, PES University, BMSIT, DSCE, CMRIT, New Horizon, Alliance University, Jain University, BIT Bangalore, and more. Seat availability varies — contact us for the latest seat matrix.' },
+  { q: 'Is free counselling available before I commit?', a: 'Yes, absolutely. We provide completely free initial counselling. Our experts assess your eligibility, discuss your preferences, and recommend suitable colleges before you make any decision or payment.' },
+  { q: 'What are the eligibility requirements for BTech admission?', a: 'You need a minimum of 45% (40% for SC/ST) aggregate in Physics, Chemistry, and Mathematics in 10+2 from a recognised board. Some top colleges like RVCE and PES have higher internal cut-offs. Our counsellors will assess your eligibility accurately.' },
+  { q: 'How do I contact BTechinBangalore for guidance?', a: 'You can reach us by calling +91 6002452250, WhatsApp on the same number, or by emailing apexlearningnetworks@gmail.com. You can also fill the contact form on this page and we will call you back within 2 hours.' },
+  { q: 'What documents are required for BTech admission?', a: '10th and 12th mark sheets, transfer certificate, migration certificate (if applicable), valid ID proof (Aadhar), passport-size photographs, and caste certificate (if applicable). Our team will provide a complete checklist specific to your chosen college.' }
+];
+const fl = document.getElementById('faqList');
+faqs.forEach((f, i) => {
+  const d = document.createElement('div');
+  d.className = 'faq-item';
+  d.innerHTML = `
+    <div class="faq-q" onclick="toggleFaq(this)">
+      <span>${f.q}</span>
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-a">${f.a}</div>
+  `;
+  fl.appendChild(d);
+});
+function toggleFaq(el) {
+  const item = el.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+// ─── FORM SUBMIT ───
+function submitForm(e) {
+  e.preventDefault();
+  document.getElementById('successMsg').style.display = 'block';
+  e.target.reset();
+  setTimeout(() => { document.getElementById('successMsg').style.display = 'none'; }, 6000);
+}
+</script>
+</body>
+</html>
